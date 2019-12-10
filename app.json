@@ -1,0 +1,38 @@
+{
+  "id": "23ec813e-019d-45da-896e-96df2cbc3c38",
+  "name": "Run All Objects",
+  "publisher": "Bech-Andersen Consult ApS",
+  "version": "1.0.0.0",
+  "brief": "Run all objects",
+  "description": "Enables the run object functionality that was depricated in with C/Side. Run any type of objects, like tables, pages, codeunits, reports and xmlports, of course depending on permissions. Object No is page 70149. Web Client Base URL must be set on the service tier. Can be imported to the cloud version as well.",
+  "privacyStatement": "",
+  "EULA": "http://ba-condult.dk/warrenty.txt",
+  "help": "",
+  "url": "",
+  "logo": "./Images/RunLogo.jpg",
+  "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "15.0.0.0",
+  "idRanges": [
+    {
+      "from": 70100,
+      "to": 70149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://RunAllObjects.com/help/",
+  "showMyCode": true,
+  "runtime": "4.0"
+}
