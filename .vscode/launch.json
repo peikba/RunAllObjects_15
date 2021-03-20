@@ -7,7 +7,7 @@
             "request": "launch",
             "environmentType": "OnPrem",
             "server": "http://localhost",
-            "serverInstance": "BC160",
+            "serverInstance": "BC170",
             "authentication": "Windows",
             "breakOnError": true,
             "breakOnRecordWrite": false,
