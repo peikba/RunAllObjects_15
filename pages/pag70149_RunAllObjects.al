@@ -47,12 +47,7 @@ page 70147 "BAC Run All Objects"
                     Caption = 'App Package Name';
                     ApplicationArea = All;
                 }
-
             }
-        }
-        area(Factboxes)
-        {
-
         }
     }
 
@@ -79,6 +74,7 @@ page 70147 "BAC Run All Objects"
             }
         }
     }
+
     local procedure GetNavAppName(inAppPackageID: Guid): Text
     var
         NavApp: Record "NAV App Installed App";
@@ -105,4 +101,5 @@ page 70147 "BAC Run All Objects"
                 Message('Object type ' + Format("Object Type") + ' ' + "Object Name" + ' cant be run');
         end;
     end;
+
 }
